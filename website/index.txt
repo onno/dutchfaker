@@ -2,16 +2,25 @@ h1. Dutch Faker
 
 h2. What
 
+A Dutch version of the Faker ruby gem (http://faker.rubyforge.org). It generates Dutch names and addresses. DutchFaker::Address.address generates fake but valid Dutch addresses.
 
+* Only existing Dutch city names are generated.
+  
+* The postalcode will be valid for the city. 
+  
+* The areacode of the phonenumber will be valid for the city.
+
+  
 h2. Installing
 
 <pre syntax="ruby">sudo gem install dutchfaker</pre>
 
-h2. The basics
-
 
 h2. Demonstration of usage
 
+* DutchFaker::Name.first_name => "Fabiaan"
+
+* DutchFaker::Address.street_address => "Schilperoortlaan 79"
 
 
 h2. Forum
@@ -19,6 +28,7 @@ h2. Forum
 "http://groups.google.com/group/dutchfaker":http://groups.google.com/group/dutchfaker
 
 TODO - create Google Group - dutchfaker
+
 
 h2. How to submit patches
 
@@ -45,9 +55,9 @@ Or you can hack website/index.txt and make it all go away!!
 
 <% end %>
 
-* github: "http://github.com/onno/dutchfaker/tree/master":http://github.com/GITHUB_USERNAME/dutchfaker/tree/master
+* github: "http://github.com/onno/dutch-faker/tree/master":http://github.com/onno/dutch-faker/tree/master
 
-<pre>git clone git://github.com/onno/dutchfaker.git</pre>
+<pre>git clone git://github.com/onno/dutch-faker.git</pre>
 
 
 h3. Build and test instructions
