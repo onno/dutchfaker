@@ -3,8 +3,8 @@ require 'DutchFaker/version'
 AUTHOR = 'Onno van Zinderen'  # can also be an array of Authors
 EMAIL = "onno01@chello.nl"
 DESCRIPTION = "Creates fake Dutch names and addresses"
-GEM_NAME = 'dutch-faker' # what ppl will type to install your gem
-RUBYFORGE_PROJECT = 'dutch-faker' # The unix name for your project
+GEM_NAME = 'dutchfaker' # what ppl will type to install your gem
+RUBYFORGE_PROJECT = 'dutchfaker' # The unix name for your project
 HOMEPATH = "http://#{RUBYFORGE_PROJECT}.rubyforge.org"
 DOWNLOAD_PATH = "http://rubyforge.org/projects/#{RUBYFORGE_PROJECT}"
 EXTRA_DEPENDENCIES = [

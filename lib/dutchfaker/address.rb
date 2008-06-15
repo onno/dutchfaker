@@ -29,7 +29,7 @@ module DutchFaker
       end
       
       def street_name
-        Faker::Name.last_name + STREET_SUFFIX.rand
+        DutchFaker::Name.last_name + STREET_SUFFIX.rand
       end
       
       def postal_code(prefix = nil)
