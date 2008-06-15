@@ -4,7 +4,9 @@
 
 == DESCRIPTION:
 
-A Dutch version of the Faker ruby gem (http://faker.rubyforge.org). It generates Dutch names and addresses. DutchFaker::Address.address generates fake but valid Dutch addresses.
+A Dutch version of the Faker ruby gem (http://faker.rubyforge.org). It generates Dutch names and addresses. 
+
+Use DutchFaker::Address.address to generate fake but valid Dutch addresses.
 
   * Only existing Dutch city names are generated.
   

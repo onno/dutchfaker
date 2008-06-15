@@ -38,16 +38,44 @@
     <h2>What</h2>
 
 
+	<p>A Dutch version of the Faker ruby gem (http://faker.rubyforge.org). It generates Dutch names and addresses.</p>
+
+
+	<p>Use DutchFaker::Address.address to generate fake but valid Dutch addresses.</p>
+
+
+	<ul>
+	<li>Only existing Dutch city names are generated.</li>
+	</ul>
+
+
+	<ul>
+	<li>The postalcode will be valid for the city.</li>
+	</ul>
+
+
+	<ul>
+	<li>The areacode of the phonenumber will be valid for the city.</li>
+	</ul>
+
+
 	<h2>Installing</h2>
 
 
 	<p><pre class='syntax'><span class="ident">sudo</span> <span class="ident">gem</span> <span class="ident">install</span> <span class="ident">dutchfaker</span></pre></p>
 
 
-	<h2>The basics</h2>
-
-
 	<h2>Demonstration of usage</h2>
+
+
+	<ul>
+	<li>DutchFaker::Name.first_name =&gt; &#8220;Fabiaan&#8221;</li>
+	</ul>
+
+
+	<ul>
+	<li>DutchFaker::Address.street_address =&gt; &#8220;Schilperoortlaan 79&#8221;</li>
+	</ul>
 
 
 	<h2>Forum</h2>
@@ -84,11 +112,11 @@ yet to refresh your local rubyforge data with this projects&#8217; id informatio
 
 
 	<ul>
-	<li>github: <a href="http://github.com/GITHUB_USERNAME/dutchfaker/tree/master">http://github.com/onno/dutchfaker/tree/master</a></li>
+	<li>github: <a href="http://github.com/onno/dutch-faker/tree/master">http://github.com/onno/dutch-faker/tree/master</a></li>
 	</ul>
 
 
-<pre>git clone git://github.com/onno/dutchfaker.git</pre>
+<pre>git clone git://github.com/onno/dutch-faker.git</pre>
 
 	<h3>Build and test instructions</h3>
 
@@ -108,7 +136,7 @@ rake install_gem</pre>
 
 	<p>Comments are welcome. Send an email to <a href="mailto:onno01@chello.nl">Onno van Zinderen</a>.</p>
     <p class="coda">
-      <a href="mailto:onno01@chello.nl">Onno van Zinderen</a>, 13th June 2008<br>
+      <a href="mailto:onno01@chello.nl">Onno van Zinderen</a>, 15th June 2008<br>
       Theme extended from <a href="http://rb2js.rubyforge.org/">Paul Battley</a>
     </p>
 </div>
