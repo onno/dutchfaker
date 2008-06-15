@@ -8,11 +8,11 @@ A Dutch version of the Faker ruby gem (http://faker.rubyforge.org). It generates
 
 Use DutchFaker::Address.address to generate fake but valid Dutch addresses.
 
-  * Only existing Dutch city names are generated.
+* Only existing Dutch city names are generated.
   
-  * The postalcode will be valid for the city. 
+* The postalcode will be valid for the city. 
   
-  * The areacode of the phonenumber will be valid for the city.
+* The areacode of the phonenumber will be valid for the city.
 
 This means that applications that perform basic address validation will be able to use the generated addresses.
 
