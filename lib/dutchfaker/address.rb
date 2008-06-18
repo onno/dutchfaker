@@ -5,6 +5,8 @@ module DutchFaker
     STREET_SUFFIX = %w{straat straat straat weg laan plein hof steeg dijk}
     
     class << self
+      include DutchFaker::Randomify
+      
       def address
         city = CITIES.rand
         { :street_address => street_address, 
