@@ -29,8 +29,6 @@ h2. Forum
 
 "http://groups.google.com/group/dutchfaker":http://groups.google.com/group/dutchfaker
 
-TODO - create Google Group - dutchfaker
-
 
 h2. How to submit patches
 
