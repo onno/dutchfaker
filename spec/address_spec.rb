@@ -10,8 +10,9 @@ describe DutchFaker::Address do
     def city
       DutchFaker::Address::CITIES.find { |city| city[0] == @fake[:city] }
     end
-    it "should not be null" do
-      @fake.should_not be_empty
+    
+    it "should not be nil" do
+      @fake.should_not be_nil
     end
     
     it "should have a street address" do
