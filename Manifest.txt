@@ -11,10 +11,13 @@ lib/dutchfaker/address.rb
 lib/dutchfaker/company.rb
 lib/dutchfaker/internet.rb
 lib/dutchfaker/name.rb
+lib/dutchfaker/randomify.rb
 lib/dutchfaker/version.rb
 lib/ext/array.rb
 setup.rb
 spec/address_spec.rb
+spec/company_spec.rb
+spec/internet_spec.rb
 spec/name_spec.rb
 spec/shared_fake_examples.rb
 spec/spec.opts
