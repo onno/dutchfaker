@@ -36,24 +36,9 @@ Read the "8 steps for fixing other people's code":http://drnicwilliams.com/2007/
 
 You can fetch the source from either:
 
-<% if rubyforge_project_id %>
-
-* rubyforge: "http://rubyforge.org/scm/?group_id=<%= rubyforge_project_id %>":http://rubyforge.org/scm/?group_id=<%= rubyforge_project_id %>
+* rubyforge: "http://rubyforge.org/scm/?group_id=6459<%= rubyforge_project_id %>":http://rubyforge.org/scm/?group_id=6459
 
 <pre>git clone git://rubyforge.org/dutchfaker.git</pre>
-
-<% else %>
-
-* rubyforge: MISSING IN ACTION
-
-TODO - You can not created a RubyForge project, OR have not run <code>rubyforge config</code>
-yet to refresh your local rubyforge data with this projects' id information.
-
-When you do this, this message will magically disappear!
-
-Or you can hack website/index.txt and make it all go away!!
-
-<% end %>
 
 * github: "http://github.com/onno/dutchfaker/tree/master":http://github.com/onno/dutchfaker/tree/master
 
