@@ -1,3 +1,4 @@
 *.tmproj
 /doc
 /pkg
+/website/index.html
