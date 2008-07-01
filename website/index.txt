@@ -47,7 +47,7 @@ You can fetch the source from either:
 h3. Build and test instructions
 
 <pre>cd dutchfaker
-rake test
+rake spec
 rake install_gem</pre>
 
 
