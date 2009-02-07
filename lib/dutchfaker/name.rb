@@ -1,3 +1,4 @@
+# coding: utf-8
 module DutchFaker
   class Name
     # Source: http://www.voornamenboek.nl
